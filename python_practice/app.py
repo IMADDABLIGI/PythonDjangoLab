@@ -7,14 +7,14 @@ print('Hello world')
 
 
 #--------------Conditions-------------- 
-# tempature = int(input("Enter today's tempature : "))
-# if (tempature > 30):
-#     print("It's a hot day")             #Indent
-# elif (tempature < 15):
-#     print("It's a cold day")
-# else:
-#     print("It's a good day")
-# print("Drink water")
+tempature = int(input("Enter today's tempature : "))
+if (tempature > 30):
+    print("It's a hot day")             #Indent
+elif (tempature < 15):
+    print("It's a cold day")
+else:
+    print("It's a good day")
+print("Drink water")
 
 
 #--------------While_Loops--------------
@@ -32,7 +32,7 @@ print('Hello world')
 # print(5 in numbers)
 # print(numbers) 
 # print("lenght of list is : " + str(len(numbers)))
-# print(10 in numbers)
+# print(0 in numbers)
 
 #--------------For_Loops--------------
 
@@ -54,4 +54,3 @@ print('Hello world')
  
 # welcome("IMAD", 20)
 # print(round(1.6))
-fizz_buzz(99)

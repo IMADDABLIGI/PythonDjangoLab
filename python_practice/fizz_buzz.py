@@ -8,4 +8,4 @@ def fizz_buzz(num: int) -> None:
             print("Buzz")
         else:
             print(num)
-        num += 1
+    num += 1

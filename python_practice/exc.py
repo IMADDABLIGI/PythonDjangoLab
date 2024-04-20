@@ -8,13 +8,13 @@ from fizz_buzz import fizz_buzz
 #     file.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
 
 # with open("text1.txt", "a") as file:
-#     file.write("\n Birds flyins high.")
+#     file.write("\n Birds flying high.")
 
 #--------------Try-Except-Block--------------
 #--------------Read-Only--------------
 
 # try:
-#     with open("text1.txt") as file: #by using {with}block it makes sure that the file is safely oppened and safely closed
+#     with open("text1.txt") as file:                 #by using {with}block it makes sure that the file is safely oppened and safely closed
 #         print("||---" , file.read() + "---||")
 # except FileNotFoundError:
 #     print("File not exsited !")
@@ -26,12 +26,12 @@ from fizz_buzz import fizz_buzz
 
 #--------------Function-Optional-Argument--------------
     
-# def increment(num, by=1): #The optional argument always comes after the required argument not before !
+# def increment(num, by=1):                             #The optional argument always comes after the required argument not before !
 #     return num + by
 
 # print(increment(2 + 5))
 
-#--------------Tuples-*arg------------- #You can't append a new value to the tuples
+#--------------Tuples-*arg-------------                 #You can't append a new value to the tuples
 #--------------Methodes1
 # def multiplication(*numbers):
 #     i = 0
